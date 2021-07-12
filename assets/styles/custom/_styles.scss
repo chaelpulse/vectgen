@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+html {
+    overflow-x: hidden;
+}
+
+.navbar-nav {
+
+    .nav-item:last-child {
+        border: 1px solid rgba(125, 125, 125, 0.5);
+        min-width: 150px;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    .nav-item {
+        min-height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav-link {
+        padding: 0;
+    }
+
+}
+
+.header-1 {
+    .page-header-image {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .display-3 {
+        font-size: 66px;
+        font-family: 'Comfortaa', Arial, sans-serif;
+        font-weight: 100;
+    }
+
+    .display-3, p {
+        color: #EDEEFC;
+    }
+
+    p {
+        font-size: 18px;
+        max-width: 525px;
+    }
+}
+
+.navbar-main {
+    position: fixed !important;
+    background: none;
+    top: 0;
+
+    .navbar-brand img {
+        height: 38px;
+    }
+}
+
+.page-header {
+    .btn-primary {
+        background: linear-gradient(90deg, #0065AD 0%, #0086C0 59.71%, #00B4D8 100%);
+        min-width: 200px;
+        padding: 17px 0;
+        border: none;
+    }
+
+    .btn-contact {
+        color: #FFFFFF;
+        border: 1px solid rgba(125,125,125,0.5);
+        padding: 13px 0;
+        min-width: 200px;
+    }
+
+    .btn-contact:before {
+        content: url(/assets/img/contact-icon.svg);
+        position: relative;
+        top: 5px;
+    }
+
+}

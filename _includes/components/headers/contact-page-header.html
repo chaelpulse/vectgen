@@ -1,0 +1,114 @@
+<div class="contactus-3 fullWidth">
+  <div class="page-header ">
+    <img
+      class="bg-image"
+     
+      src="{{ '/assets/img/dna-contact.svg' | relative_url }}"
+      alt=""
+    />
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center mb-5">
+        <h1 class="display-1">Connect with our team</h1>
+        <h3 class="lead">
+          Vectgen Bio is based in Research Triangle Park, NC, a hub of
+          innovation in science and technology. RTP offers a robust
+          biotechnology ecosystem, including access to leading academic medical
+          centers, cutting-edge manufacturing infrastructure, and an incredible
+          pool of local talent.
+        </h3>
+        <button class="btn btn-icon btn-primary mt-3" type="button">
+          <span class="btn-inner--icon"><i class="ni ni-chat-round"></i></span>
+          <span class="btn-inner--text"
+            ><a class="text-white" href="#contact">Chat with us</a></span
+          >
+        </button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-6">
+        <div class="info info-hover">
+          <div
+            class="icon icon-shape icon-shape-primary icon-lg shadow rounded-circle text-primary"
+          >
+            <i class="ni ni-square-pin"></i>
+          </div>
+          <h4 class="info-title">Address</h4>
+          <p class="description px-0">
+            {{site.data.settings.contact_settings.street_address}}
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-6">
+        <div class="info info-hover">
+          <div
+            class="icon icon-shape icon-shape-primary icon-lg shadow rounded-circle text-primary"
+          >
+            <i class="ni ni-email-83"></i>
+          </div>
+          <h4 class="info-title">Email</h4>
+          <p class="description px-0">
+            {{site.data.settings.contact_settings.email}}
+      
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-6">
+        <div class="info info-hover">
+          <div
+            class="icon icon-shape icon-shape-primary icon-lg shadow rounded-circle text-primary"
+          >
+            <i class="ni ni-mobile-button"></i>
+          </div>
+          <h4 class="info-title">Phone</h4>
+          <p class="description px-0">{{site.data.settings.contact_settings.phone_number}}</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-6">
+        <div class="info info-hover">
+          
+          <div
+            class="icon icon-shape icon-shape-primary icon-lg shadow rounded-circle text-primary"
+          >
+            <i class="ni ni-like-2"></i>
+          </div>
+          <h4 class="info-title">Social</h4>
+         
+          <p class="description px-0">
+            <small>
+            <a title='Twitter' href="{{site.data.settings.social_settings.twitter_url}}">
+              <div
+                class="icon icon-shape icon-shape-primary icon-sm rounded-circle opacity-5 "
+              >
+                <i class="fa fa-twitter"></i>
+              </div>
+              
+            </a>&nbsp;
+            <a title='Facebook' href="{{site.data.settings.social_settings.facebook_url}}">
+              <div
+                class="icon icon-shape icon-shape-primary icon-sm rounded-circle opacity-5 "
+              >
+                <i class="fa fa-facebook"></i>
+              </div>
+              
+            </a> &nbsp;
+            <a title='Linkedin' href="{{site.data.settings.social_settings.linkedin_url}}">
+              <div
+                class="icon icon-shape icon-shape-primary icon-sm rounded-circle opacity-5"
+              >
+                <i class="fa fa-linkedin"></i>
+              </div>
+              
+            </a>
+          </small>
+        
+          </p>
+        
+        
+   
+      </div>
+    </div>
+  </div>
+</div>
