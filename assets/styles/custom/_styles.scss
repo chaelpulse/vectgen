@@ -4,6 +4,14 @@ html {
     overflow-x: hidden;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Comfortaa', Arial, sans-serif !important;
+}
+
+.h4 {
+    font-size: 56px;
+}
+
 .navbar-nav {
 
     .nav-item:last-child {
@@ -79,4 +87,52 @@ html {
         top: 5px;
     }
 
+    h2 {
+        font-size: 62px;
+        font-weight: 400;
+        font-family: 'Comfortaa', Arial, sans-serif;
+    }
+
+    .page-header__btn-down {
+        border: 1.4px solid rgba(0, 180, 216, 0.4);
+        min-height: 54px;
+        min-width: 54px;
+        display: flex;
+        align-items: center;
+        max-width: 54px;
+        justify-content: center;
+        border-radius: 50%;
+        margin-top: 50px;
+        margin-left: 95px;
+    }
+
+    .page-header__description {
+        max-width: 300px;
+        margin-left: 95px;
+    }
+
+}
+
+.page-header-100 {
+    min-width: 100vh;
+}
+
+.section__description {
+    padding-bottom: 90px;
+    margin-bottom: 0;    
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+
+.section__description:last-child {
+    padding-bottom: 0;
+}
+
+.navbar-main .container {
+    max-width: 100%;
+    padding: 0 50px;
+    @media(max-width: 992px){
+        padding: 0;
+    }
 }
