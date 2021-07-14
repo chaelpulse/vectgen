@@ -1,13 +1,13 @@
 <footer class="footer mt-5 pt-4">
-  <div class="container">
-    <div class="row row-grid align-items-center mb-2 mt-2">
+  <div class="footer__container">
+    <!-- <div class="row row-grid align-items-center mb-2 mt-2">
       <div class="col-lg-6">
         <h4 class="mb-0 font-weight-light">{{ site.data.settings.footer_settings.footer_tagline }}</h4>
       </div>
       <div class="col-lg-6 text-lg-right">
         {% include socials.html %}
       </div>
-    </div>
+    </div> -->
     <hr>
     <div class="row align-items-center justify-content-md-between">
       <div class="col-md-6">
@@ -15,20 +15,10 @@
           <span> © {{ 'now' | date: "%Y" }} Vectgen Biosciences, Inc.</span>
         </div>
       </div>
-      <div class="col-md-6">
-        <ul class="nav nav-footer justify-content-end">
-          {% for item in site.data.settings.menu_settings.menu_items %}
-          {% if item.submenu_items %}
-
-          {% else %}
-          <li class="nav-item">
-            <a href="{{ item.url | relative_url }}" class="nav-link">
-              <span class="nav-link-inner--text">{{ item.title }}</span>
-            </a>
-          </li>
-          {% endif %}
-          {% endfor %}
-        </ul>
+      <div class="col-md-6 d-flex justify-content-end">
+          <div class="footer-social-icons">
+            {% include socials.html %}
+          </div>
       </div>
     </div>
   </div>

@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
 
+
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Page Info -->
   <link rel="shortcut icon" href="{{ site.data.settings.basic_settings.favicon_image | relative_url }}">
@@ -25,7 +27,7 @@
 
   <!--  Fonts and icons -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css?ver=5.7.2" rel="stylesheet">
   <!-- Nucleo Icons -->
   <link href="{{ "/assets/css/nucleo-icons.css" | relative_url }}" rel="stylesheet" />
   <link href="{{ "/assets/css/nucleo-svg.css" | relative_url }}" rel="stylesheet" />
@@ -59,7 +61,7 @@
         style="background-image: url({{ page.featured_image | relative_url }});"></div>
       <div class="container contentWrapper">
         <div class="row">
-          <div class="col-lg-10 mx-auto pt-4">
+          <div class="col-lg-12">
             <h2 class="display-2 text-white">{{ page.title }}</h2>
             <p class="text-white page-header__description">{{page.subtitle}}</p>
             <div class="page-header__btn-down">
@@ -96,6 +98,9 @@
   {% if site.data.settings.advanced_settings.footer_js %}
   <!-- Extra Footer JS Code --> {{ site.data.settings.advanced_settings.footer_js }}
   {% endif %}
+
+  <!-- JS Files -->
+  <script src="{{ base.url | prepend: site.url }}/assets/js/script.js"></script>
 
 </body>
 
