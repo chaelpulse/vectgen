@@ -64,12 +64,18 @@ p {
     .page-header-image {
         background-size: cover;
         background-position: center;
+        @media(max-width: 992px){
+            opacity: 1 !important;
+        }
     }
 
     .display-3 {
         font-size: 66px;
         font-family: 'Comfortaa', Arial, sans-serif;
         font-weight: 100;
+        @media(max-width: 992px){
+            font-size: 42px;
+        }
     }
 
     .display-3, p {
@@ -79,6 +85,9 @@ p {
     p {
         font-size: 18px;
         max-width: 525px;
+        @media(max-width: 992px){
+            font-size: 16px;
+        }
     }
 }
 
@@ -111,6 +120,12 @@ p {
         content: url(/vectgen/assets/img/contact-icon.svg);
         position: relative;
         top: 5px;
+    }
+
+    .btn {
+        @media(max-width: 992px){
+            margin-bottom: 20px;
+        }
     }
 
     h2 {
@@ -224,6 +239,12 @@ p {
 
 .model-grid {
 
+    .col-md-6 {
+        @media(max-width: 992px){
+            padding: 0;
+        }
+    }
+
     .info {
         margin-top: 100px;
     }
@@ -239,6 +260,9 @@ p {
         border-radius: 16px;
         box-shadow: inset 0px 0px 68px rgba(255, 255, 255, 0.05), inset 0px 4px 4px rgba(255, 255, 255, 0.15);
         margin-top: 15px;
+        @media(max-width: 992px){
+            margin-bottom: 50px;
+        }
     }
 
 }
@@ -253,6 +277,15 @@ p {
 
     .footer__container {
         padding: 0 80px;
+        @media(max-width: 992px){
+            padding: 0 15px;
+        }
+    }
+
+    .footer-social-icons {
+        @media(max-width: 992px){
+            padding-top: 30px;
+        }
     }
 
 }
