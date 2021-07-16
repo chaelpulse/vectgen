@@ -11,6 +11,7 @@ body {
     background: #F1F1F8;
     color: #222131;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -19,12 +20,18 @@ h1, h2, h3, h4, h5, h6 {
 
 .h4 {
     font-size: 56px;
+    @media(max-width: 992px){
+        font-size: 40px;
+    }
 }
 
 p {
     font-family: 'Mulish', arial, sans-serif;
     font-size: 18px;
     color: #222131;
+    @media(max-width: 992px){
+        font-size: 16px;
+    }
 }
 
 .navbar-nav {
@@ -110,6 +117,9 @@ p {
         font-size: 62px;
         font-weight: 400;
         font-family: 'Comfortaa', Arial, sans-serif;
+        @media(max-width: 992px){
+            font-size: 50px;
+        }
     }
 
     .page-header__btn-down {
@@ -123,17 +133,24 @@ p {
         border-radius: 50%;
         margin-top: 50px;
         margin-left: 95px;
+        @media(max-width: 992px){
+            margin-top: 25px;
+            margin-left: 0;
+        }
     }
 
     .page-header__description {
         max-width: 400px;
         margin-left: 95px;
+        @media(max-width: 992px){
+            margin-left: 0;
+        }
     }
 
 }
 
 .page-header-100 {
-    min-width: 100vh;
+    min-width: 100vw;
 }
 
 .section__description {
@@ -183,6 +200,9 @@ p {
     .info-title {
         font-weight: bold;
         font-size: 20px;
+        @media(max-width: 992px){
+            font-size: 18px;
+        }
     }
 
     ul {
