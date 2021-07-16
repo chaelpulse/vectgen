@@ -309,3 +309,31 @@ p {
 .container {
     max-width: 1200px;
 }
+
+.contactus-3 {
+
+    .page-header-100 {
+        height: 100vh;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+    }
+
+    .display-1 {
+        color: #FFFFFF;
+        font-size: 62px;
+        font-weight: 100 !important;
+        max-width: 500px;
+    }
+
+    .btn {
+        text-transform: none;
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+}
