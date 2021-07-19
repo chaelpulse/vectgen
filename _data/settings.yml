@@ -4,7 +4,7 @@ basic_settings:
 
 header_settings:
   logo_image: /assets/img/vectgen-logo-new.svg
-  mobile_logo_image: /assets/img/vectgenbioblue.png
+  mobile_logo_image: /assets/img/vectgen-logo-new.svg
   # Choose a color for your header [blue, dark, light].
   theme: dark
   # If the page has a featured image, it turns transparent if allow_transparent is set to "yes".
