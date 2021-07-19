@@ -328,6 +328,9 @@ p {
         font-size: 62px;
         font-weight: 100 !important;
         max-width: 500px;
+        @media(max-width: 992px){
+            font-size: 50px;
+        }
     }
 
     .btn {
@@ -337,3 +340,84 @@ p {
     }
 
 }
+
+.container__contact-icons {
+
+    .info {
+        margin-top: 0;
+        min-height: 250px;
+        background: none;
+        box-shadow: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .description {
+        font-size: 18px;
+        font-weight: 300;
+        font-family: 'Mulish', Arial, sans-serif;
+    }
+
+    .info-title {
+        font-family: 'Mulish', Arial, sans-serif !important;
+        text-transform: uppercase;
+        font-size: 14px;
+        letter-spacing: 0.22em;
+    }
+
+
+    .contact__social-icons {
+        .icon i {
+            font-size: 16px;
+        }
+
+        .icon {
+            background: none;
+            border: 1px solid #222131;
+            min-height: 48px;
+            min-width: 48px;
+            margin-right: 10px;
+        }
+
+    }
+
+}
+
+.container__form {
+    overflow-x: hidden;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+    .card-contact {
+        border-top: 5px solid;
+        border-image-slice: 1;
+        border-image-source: linear-gradient(102.27deg, #74C3E0 19.09%, #465CF2 49.37%, #A46EB9 76.54%);
+        padding: 50px;
+
+        [class*="col-"] {
+            border: none;
+        }
+
+        .btn {
+            background: linear-gradient(90deg, #0065AD 0%, #0086C0 59.71%, #00B4D8 100%);
+            border: none;
+            font-size: 18px;
+            font-family: 'Mulish', Arial, sans-serif;
+            margin-top: 30px;
+        }
+
+        @media(max-width: 992px){
+            padding: 50px 10px;
+        }
+
+    }
+
+    .card-body .form-control {
+        font-family: 'Mulish', Arial, sans-serif;
+        font-size: 18px;
+    }
+}
+

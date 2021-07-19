@@ -13,14 +13,14 @@
     </div>
 
   </div>
-  <div class="container">
+  <div class="container__contact-icons">
     <div class="row">
-      <div class="col-lg-3 col-md-6 col-6">
+      <div class="col-lg-3 col-md-12">
         <div class="info info-hover">
           <div
-            class="icon icon-shape icon-shape-primary icon-lg shadow rounded-circle text-primary"
+            class="icon icon-shape icon-lg shadow rounded-circle text-primary"
           >
-            <i class="ni ni-square-pin"></i>
+            <i class="fas fa-map-marker-alt"></i>
           </div>
           <h4 class="info-title">Address</h4>
           <p class="description px-0">
@@ -28,12 +28,12 @@
           </p>
         </div>
       </div>
-      <div class="col-lg-3 col-md-6 col-6">
+      <div class="col-lg-3 col-md-12">
         <div class="info info-hover">
           <div
-            class="icon icon-shape icon-shape-primary icon-lg shadow rounded-circle text-primary"
+            class="icon icon-shape icon-lg shadow rounded-circle text-primary"
           >
-            <i class="ni ni-email-83"></i>
+            <i class="fas fa-at"></i>
           </div>
           <h4 class="info-title">Email</h4>
           <p class="description px-0">
@@ -42,55 +42,52 @@
           </p>
         </div>
       </div>
-      <div class="col-lg-3 col-md-6 col-6">
+      <div class="col-lg-3 col-md-12">
         <div class="info info-hover">
           <div
-            class="icon icon-shape icon-shape-primary icon-lg shadow rounded-circle text-primary"
+            class="icon icon-shape icon-lg shadow rounded-circle text-primary"
           >
-            <i class="ni ni-mobile-button"></i>
+            <i class="fas fa-phone-alt"></i>
           </div>
           <h4 class="info-title">Phone</h4>
           <p class="description px-0">{{site.data.settings.contact_settings.phone_number}}</p>
         </div>
       </div>
 
-      <div class="col-lg-3 col-md-6 col-6">
+      <div class="col-lg-3 col-md-12">
         <div class="info info-hover">
           
           <div
-            class="icon icon-shape icon-shape-primary icon-lg shadow rounded-circle text-primary"
+            class="icon icon-shape icon-lg shadow rounded-circle text-primary"
           >
             <i class="ni ni-like-2"></i>
           </div>
           <h4 class="info-title">Social</h4>
          
           <p class="description px-0">
-            <small>
-            <a title='Twitter' href="{{site.data.settings.social_settings.twitter_url}}">
-              <div
-                class="icon icon-shape icon-shape-primary icon-sm rounded-circle opacity-5 "
-              >
-                <i class="fa fa-twitter"></i>
-              </div>
               
-            </a>&nbsp;
-            <a title='Facebook' href="{{site.data.settings.social_settings.facebook_url}}">
-              <div
-                class="icon icon-shape icon-shape-primary icon-sm rounded-circle opacity-5 "
-              >
-                <i class="fa fa-facebook"></i>
+              <div class="contact__social-icons">
+                
+                <a title="Twitter" href="{{site.data.settings.social_settings.twitter_url}}">
+                  <div class="icon icon-shape icon-shape-primary icon-sm rounded-circle opacity-5 ">
+                    <i class="fa fa-twitter"></i>
+                  </div> 
+                </a>
+  
+                <a title="Facebook" href="{{site.data.settings.social_settings.facebook_url}}">
+                  <div class="icon icon-shape icon-shape-primary icon-sm rounded-circle opacity-5 ">
+                    <i class="fa fa-facebook"></i>
+                  </div>
+                </a>
+  
+                <a title="Linkedin" href="{{site.data.settings.social_settings.linkedin_url}}">
+                  <div class="icon icon-shape icon-shape-primary icon-sm rounded-circle opacity-5">
+                    <i class="fa fa-linkedin"></i>
+                  </div>
+                </a>
+
               </div>
-              
-            </a> &nbsp;
-            <a title='Linkedin' href="{{site.data.settings.social_settings.linkedin_url}}">
-              <div
-                class="icon icon-shape icon-shape-primary icon-sm rounded-circle opacity-5"
-              >
-                <i class="fa fa-linkedin"></i>
-              </div>
-              
-            </a>
-          </small>
+
         
           </p>
         
