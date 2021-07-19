@@ -509,6 +509,9 @@ p {
 
 .navbar-collapse {
     background: #32325d !important;
+    @media(max-width: 992px){
+        background: none !important;
+    }
 }
 
 .nav-item span {
