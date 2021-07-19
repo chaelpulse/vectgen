@@ -52,6 +52,9 @@ p {
         &:last-child {
             padding-right: 0;
         }
+        @media(max-width: 992px){
+            padding-right: 0;
+        }
     }
 
     .nav-link {
@@ -514,4 +517,8 @@ p {
 
 .navbar-collapse .navbar-toggler span {
     background: #FFFFFF !important;
+}
+
+.navbar-collapse .navbar-collapse-header {
+    border-bottom: 1px solid #F1F1F8;
 }
