@@ -421,3 +421,82 @@ p {
     }
 }
 
+.team {
+
+    .team__headers{
+
+        max-width: 775px;
+        margin: 0 auto;
+
+        h2 {
+            font-size: 56px;
+            text-align: center;
+            margin-top: 50px;
+            @media(max-width: 992px){
+                font-size: 42px;
+            }
+        }
+
+        p {
+            color: #222131;
+            font-size: 18px;
+            text-align: center;
+        }
+    }
+
+    .card {
+        position: relative;
+        min-height: 325px;
+        border-radius: 15px;
+        border: 1px solid rgba(125,125,125,0.5);
+
+        @media(max-width: 992px){
+            margin-top: 50px;
+            min-height: 370px;
+        }
+
+        img {
+            position: absolute;
+            top: -45px;
+        }
+
+        .card-body {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            background: #F1F1F8;
+            justify-content: flex-end;
+            border-radius: 15px;
+
+            h5 {
+                color: #222131;
+                font-weight: bold;
+                font-size: 18px;
+                margin-bottom: 0;
+                text-align: center;
+            }
+
+            p {
+                font-size: 14px;
+                color: #222131;
+                text-align: center;
+            }
+
+        }
+
+    }
+
+    .team__members {
+        margin-top: 100px;
+
+        .advisor-title {
+            margin-bottom: 50px;
+            text-align: center;
+            font-size: 22px;
+            font-weight: bold;
+            color: #070060;
+        }
+
+    }
+
+}
