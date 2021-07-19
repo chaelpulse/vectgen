@@ -48,7 +48,7 @@ p {
         display: flex;
         align-items: center;
         justify-content: center;
-        padding-right: 26px;
+        padding-right: 25px;
         &:last-child {
             padding-right: 0;
         }
@@ -189,7 +189,7 @@ p {
 }
 
 .navbar-scroll-bg {
-    background: #04082e !important;
+    background: linear-gradient(90deg, rgba(35, 31, 92, 0.93) -17.22%, rgba(24, 21, 64, 0.93) 43.67%, rgba(13, 11, 34, 0.93) 149.1%) !important;
 }
 
 .navbar-nav .nav-link .nav-link-inner--text {
@@ -502,4 +502,16 @@ p {
 
     }
 
+}
+
+.navbar-collapse {
+    background: #32325d !important;
+}
+
+.nav-item span {
+    color: #FFFFFF;
+}
+
+.navbar-collapse .navbar-toggler span {
+    background: #FFFFFF !important;
 }
