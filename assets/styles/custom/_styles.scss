@@ -358,6 +358,12 @@ p {
 
 }
 
+.contactus-1 .desc br {
+    @media(max-width: 992px){
+        display: none;
+    }
+}
+
 .container__contact-icons {
 
     .info {
@@ -469,7 +475,8 @@ p {
         position: relative;
         min-height: 325px;
         border-radius: 15px;
-        border: 1px solid rgba(125,125,125,0.5);
+        border: 1px solid rgba(207, 212, 247, 1);
+        box-shadow: none;
 
         @media(max-width: 992px){
             margin-top: 50px;
@@ -501,7 +508,7 @@ p {
             display: flex;
             align-items: center;
             flex-direction: column;
-            background: #F1F1F8;
+            background: linear-gradient(180deg, rgba(242, 242, 248, 0.7) 0%, rgba(237, 238, 252, 0.7) 100%);
             justify-content: flex-end;
             border-radius: 15px;
 
