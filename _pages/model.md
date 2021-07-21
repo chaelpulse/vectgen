@@ -1,6 +1,6 @@
 ---
 title: Our Model
-subtitle:
+subtitle: Delivering value through precision…
 description: The VectgenBio model.
 featured_image: /assets/img/model-banner-new.png
 ---
