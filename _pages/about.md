@@ -1,6 +1,6 @@
 ---
 title: About Us
-subtitle: 
+subtitle:
 description: Vectgen Biosciences, Inc.
 featured_image: /assets/img/about-banner-new.png
 ---
