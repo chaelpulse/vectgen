@@ -1,6 +1,6 @@
 ---
 title: About Us
-subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id proin curabitur sed id. Vestibulum in felis natoque mi turpis.
+subtitle: Equipped to navigate the challenging waters ahead…
 description: Vectgen Biosciences, Inc.
 featured_image: /assets/img/about-banner-new.png
 ---

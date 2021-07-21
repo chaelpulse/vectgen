@@ -73,7 +73,7 @@ p {
     }
 
     .display-3 {
-        font-size: 62px;
+        font-size: 56px;
         font-family: 'Comfortaa', Arial, sans-serif;
         font-weight: 100;
         @media(max-width: 992px){
@@ -113,18 +113,26 @@ p {
         border: none;
     }
 
+    .buttons {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
     .btn-contact {
         color: #FFFFFF;
         border: 1px solid rgba(0, 180, 216, 0.2);
         padding: 13px 0;
         min-width: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
-    .btn-contact:before {
-        content: url(/vectgen/assets/img/contact-icon.svg);
-        position: relative;
-        top: 5px;
-    }
+    // .btn-contact:before {
+    //     content: url(/vectgen/assets/img/contact-icon.svg);
+    //     position: relative;
+    //     top: 5px;
+    // }
 
     .btn {
         @media(max-width: 992px){

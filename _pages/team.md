@@ -1,6 +1,6 @@
 ---
 title: Our Team
-subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id proin curabitur sed id. Vestibulum in felis natoque mi turpis. <br><br> Diam nunc, quis vel cursus turpis ornare. Gravida eu, tellus dignissim ultrices gravida duis eros. Amet id pharetra lectus cursus nisl, tellus proin risus eu.
+subtitle: …Courageous, committed, complementary…
 description: Vectgen Biosciences, Inc.
 featured_image: /assets/img/about-banner-new.png
 ---
