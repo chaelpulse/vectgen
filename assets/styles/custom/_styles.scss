@@ -37,7 +37,7 @@ p {
 .navbar-nav {
 
     .nav-item:last-child {
-        border: 1px solid rgba(125, 125, 125, 0.5);
+        border: 1px solid rgba(0, 180, 216, 0.2);
         min-width: 150px;
         text-align: center;
         border-radius: 5px;
@@ -73,7 +73,7 @@ p {
     }
 
     .display-3 {
-        font-size: 66px;
+        font-size: 62px;
         font-family: 'Comfortaa', Arial, sans-serif;
         font-weight: 100;
         @media(max-width: 992px){
@@ -88,6 +88,7 @@ p {
     p {
         font-size: 18px;
         max-width: 525px;
+        font-weight: 100;
         @media(max-width: 992px){
             font-size: 16px;
         }
@@ -114,7 +115,7 @@ p {
 
     .btn-contact {
         color: #FFFFFF;
-        border: 1px solid rgba(125,125,125,0.5);
+        border: 1px solid rgba(0, 180, 216, 0.2);
         padding: 13px 0;
         min-width: 200px;
     }
@@ -160,6 +161,7 @@ p {
     .page-header__description {
         max-width: 400px;
         margin-left: 95px;
+        font-weight: 100;
         @media(max-width: 992px){
             margin-left: 0;
         }
@@ -218,6 +220,10 @@ p {
         }
     }
 
+    .icon-shape {
+        border: 1px solid #CFD4F7;
+    }
+
     .info-title {
         font-weight: bold;
         font-size: 20px;
@@ -243,6 +249,11 @@ p {
 
 }
 
+.model-text p {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 .model-grid {
 
     .col-md-6 {
@@ -261,7 +272,7 @@ p {
     }
 
     .info-wrapper {
-        border: 1px solid rgba(125,125,125,0.5);
+        border: 1px solid #CFD4F7;
         padding: 10px 25px 25px 25px;
         border-radius: 16px;
         box-shadow: inset 0px 0px 68px rgba(255, 255, 255, 0.05), inset 0px 4px 4px rgba(255, 255, 255, 0.15);
@@ -429,6 +440,11 @@ p {
 
 .team {
 
+    padding-top: 80px;
+    @media(max-width: 992px){
+        padding-top: 50px;
+    }
+
     .team__headers{
 
         max-width: 775px;
@@ -437,7 +453,6 @@ p {
         h2 {
             font-size: 56px;
             text-align: center;
-            margin-top: 50px;
             @media(max-width: 992px){
                 font-size: 42px;
             }
@@ -458,12 +473,28 @@ p {
 
         @media(max-width: 992px){
             margin-top: 50px;
-            min-height: 370px;
+            min-height: 350px;
+        }
+
+        @media(max-width: 991px){
+
         }
 
         img {
             position: absolute;
             top: -45px;
+
+            @media(max-width: 992px){
+                max-width: 300px;
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+            }
+
+            @media(max-width: 400px){
+                max-width: 100%;
+            }
+
         }
 
         .card-body {
