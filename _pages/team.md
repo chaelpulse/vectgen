@@ -2,7 +2,7 @@
 title: Our Team
 subtitle: …Courageous, committed, complementary…
 description: Vectgen Biosciences, Inc.
-featured_image: /assets/img/team-banner.png
+featured_image: /assets/img/our-team-banner.png
 ---
 {% include team-details.html %}
 

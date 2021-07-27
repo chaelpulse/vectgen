@@ -2,7 +2,7 @@
 title: About Us
 subtitle: Equipped to navigate the challenging waters ahead…
 description: Vectgen Biosciences, Inc.
-featured_image: /assets/img/about-banner-new.png
+featured_image: /assets/img/about-banner.png
 ---
 {% include about-details.html %}
 
